@@ -1,0 +1,31 @@
+.feature {
+    background-color: rgb(0, 112, 186, 0.1);
+    padding-top: 2rem;
+}
+
+.featureList {
+    width: 70%;
+    margin: auto;
+}
+
+.featureListWrapper {
+    display: flex;
+    gap: 1em;
+}
+
+.featureTitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.featureBox {
+    text-align: center;
+    width: 40%;
+}
+
+.featureDescription3 {
+    margin-top: -6px;
+}
+
+
+@media screen and (max-width: 370px) {}

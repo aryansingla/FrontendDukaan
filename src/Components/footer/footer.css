@@ -1,0 +1,66 @@
+.footer {
+    background-color: black;
+}
+
+.footerWrapper {
+    margin: auto;
+    width: 80%;
+    padding-top: 2.5rem;
+
+}
+
+.footerList {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footerOptionsList {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerListOption {
+    text-decoration: none;
+    color: white;
+    padding-top: 1rem;
+}
+
+.footerJobsNumber {
+    color: black;
+    background-color: white;
+    padding: 1px 8px;
+    border-radius: 50%;
+}
+
+.footerLogo {
+    width: 15%;
+    border: solid 1px black;
+}
+
+.footerLogoImg {
+    width: 70%;
+    padding-top: 1rem;
+}
+
+.footerOtherContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerCopyrighText {
+    color: white;
+    padding-left: 3rem;
+}
+
+.footerMadeInText {
+    color: white;
+    padding-right: 2.9rem;
+}
+
+hr {
+    border: 0;
+    height: 1;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}

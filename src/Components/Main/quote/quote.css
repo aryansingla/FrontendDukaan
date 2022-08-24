@@ -1,0 +1,38 @@
+.quote {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.8rem;
+}
+
+.quoteTitle {
+    width: 45%;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    background-color: whitesmoke;
+    height: 2.2rem;
+    cursor: pointer;
+}
+
+.quoteCopyInfo {
+    display: none;
+}
+
+.quoteTitle:hover .quoteCopyInfo {
+    display: block;
+    position: absolute;
+    right: 88%;
+    background-color: rgb(83, 81, 81);
+    color: white;
+    /* padding: 1px; */
+    width: 95px;
+    border-radius: 5px;
+
+}
+
+.quoteSubtitle {
+    width: 45%;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    background-color: whitesmoke;
+    height: 2.2rem;
+}
